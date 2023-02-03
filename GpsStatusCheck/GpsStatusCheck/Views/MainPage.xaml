@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns:viewModels="clr-namespace:GpsStatusCheck.ViewModels"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             x:DataType="viewModels:MainPageViewModel"
+             x:Class="GpsStatusCheck.Views.MainPage">
+    <ContentPage.BindingContext>
+        <viewModels:MainPageViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding IsGpsEnable}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Check GPS Status" Command="{Binding CheckGpsStatusCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

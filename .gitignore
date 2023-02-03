@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/GpsStatusCheck/GpsStatusCheck/bin/Debug/netstandard2.0
+/GpsStatusCheck/GpsStatusCheck/obj
+/GpsStatusCheck/GpsStatusCheck.Android/bin/Debug
+/GpsStatusCheck/GpsStatusCheck.Android/obj
+/GpsStatusCheck/GpsStatusCheck.iOS/bin/iPhone/Debug
+/GpsStatusCheck/GpsStatusCheck.iOS/obj
+/.vs
